@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lic Lifeplus</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+    <script>
+        // Automatically collapse the navbar after selecting an item
+document.querySelectorAll('.navbar-nav a').forEach((link) => {
+    link.addEventListener('click', () => {
+        document.querySelector('.navbar-collapse').classList.remove('show');
+    });
+});
+</script>
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="lib/twentytwenty/twentytwenty.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-dark m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-secondary m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <div class="container-fluid bg-light ps-5 pe-0">
+        <div class="row gx-0 align-items-center">
+            <!-- Navigation Section -->
+            <div class="col-lg-8 col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                <ul class="nav justify-content-start">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="why.html">Why LIC LifePlus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="calci.html">Calculator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="https://esales.licindia.in/pages/login-page">Ananda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="https://ebiz.licindia.in/D2CPM/#DirectPay">Pay Premium</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="https://agencycareer.licindia.in/Online_Exam/?_ga=2.114724871.1272923387.1677050657-120722208.1677050657">Agent Mock Test Portal</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center text-lg-end mb-2 mb-lg-0">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
+                        <div class="dropdown-menu">
+                            <a href="/lic/teama/InvestorRelations.html" class="dropdown-item">About Us</a>
+                            <a href="/lic/teama/MicroInsurance.html" class="dropdown-item">Photo Gallery</a>
+                            <a href="/lic/teama/PensionPolicy.html" class="dropdown-item">Certificates</a>
+                            <a href="/lic/teama/Unit Linked Policies.html" class="dropdown-item">Awards</a>
+                            <a href="/lic/contact.html" class="dropdown-item">Blogs</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/lic/contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+
+<!-- Mobile Responsive Design -->
+<style>
+   .nav-item {
+    margin-right: 5px; /* Reduce space between nav items */
+}
+
+.nav-link {
+    padding: 5px 10px; /* Maintain reduced padding for compactness */
+    font-size: 15px; /* Adjust font size if necessary */
+}
+
+.dropdown-menu {
+    min-width: 150px; /* Keep dropdown width controlled */
+}
+
+/* General Styling */
+.container-fluid {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-light .nav-link {
+    color: #333; /* Adjust text color */
+}
+
+.navbar-light .nav-link:hover {
+    color: #000; /* Hover color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+    .nav-item {
+        margin-right: 0; /* Remove right margin in mobile view */
+        margin-bottom: 5px; /* Add bottom margin for spacing */
+    }
+}
+
+
+/* Optional: Align dropdowns and other nav items for even spacing */
+.nav-item.dropdown {
+    margin-right: 0; /* Remove margin if necessary */
+}
+
+    /* General Styling */
+    .container-fluid {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .nav-link {
+        color: #000;
+        /* padding-right: 20px; */
+        /* padding-left: 20px; */
+        font-size: 13px;
+        text-transform: uppercase;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .nav-link:hover {
+        color: #007bff;
+    }
+
+    /* Topbar Email and Phone Styling */
+    .bg-primary {
+        background-color: #007bff !important;
+        color: #fff !important;
+        border-radius: 5px;
+    }
+
+    .bg-primary p {
+        margin-bottom: 0;
+    }
+
+    .border-end {
+        border-right: 1px solid #fff;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        /* Stack the navigation and contact section on mobile */
+        .col-md-6 {
+            margin-bottom: 15px;
+        }
+
+        /* Stack the navigation vertically for smaller screens */
+        .nav {
+            flex-direction: column;
+        }
+
+        .nav-link {
+            padding: 10px;
+        }
+
+        .bg-primary {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .me-3 {
+            margin-right: 0 !important;
+        }
+
+        .border-end {
+            border: none;
+        }
+    }
+ /* For mobile view, ensure better spacing and visibility */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        width: 120px; /* Adjust logo size for smaller screens */
+    }
+    
+    .navbar-nav .nav-item {
+        font-size: 13px; /* Make text slightly smaller for mobile */
+    }
+    
+    .dropdown-menu {
+        width: 100%; /* Full width for dropdown in mobile */
+    }
+    
+    /* Ensure the toggler menu doesn't take full height */
+    .navbar-collapse {
+        background-color: rgba(255, 255, 255, 0.95); /* Add slight transparency */
+        max-height: 75vh; /* Limit height of the navbar to prevent blocking */
+        overflow-y: auto; /* Allow scrolling within the menu */
+    }
+    
+    /* Hide the navbar collapse button on larger screens */
+    .navbar-toggler {
+        display: block;
+    }
+}
+
+/* For larger screens, disable toggler */
+@media (min-width: 769px) {
+    .navbar-toggler {
+        display: none; /* Hide the toggler icon on desktop */
+    }
+}
+.bg-custom {
+    background-color: #f0f0f5; /* Change this to your desired background color */
+}
+
+.navbar-light .nav-link {
+    color: #333; /* Adjust the text color as needed */
+}
+
+.navbar-light .nav-link:hover {
+    color: #000; /* Darker hover color for contrast */
+}
+.navbar-custom {
+        max-width: 40%; /* Adjust this value to reduce the width */
+        
+    }
+
+    /* Reduce padding to make it more compact */
+    .navbar-nav .nav-link {
+        padding: 8px 15px; /* Adjust padding as needed */
+    }
+
+
+</style>
+
+
+<!-- First Navigation (Top) -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-3 py-2 py-lg-0">
+    <a href="lic/index.html" class="navbar-brand p-0">
+        <img src="../licc/img/logoo.jpg" width="200" alt="Logo">
+        
+    </a>    
+    <div class="container"> <!-- Container for alignment -->
+       
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="/lic/index.html" class="nav-item nav-link active">Home</a>
+                <a href="/lic/teama/gropschema.html" class="nav-item nav-link">Group Scheme</a>
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                    <div class="dropdown-menu">
+                        <a href="/lic/teama/InvestorRelations.html" class="dropdown-item">Investor Relations</a>
+                        <a href="/lic/teama/MicroInsurance.html" class="dropdown-item">Micro Insurance</a>
+                        <a href="/lic/teama/PensionPolicy.html" class="dropdown-item">Pension Policy</a>
+                        <a href="/lic/teama/Unit Linked Policies.html" class="dropdown-item">Unit Linked Policies</a>
+                        <a href="/lic/teama/Withdraw Plan 2024-25.html" class="dropdown-item">Withdraw Plan 2024-25</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Insurance</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="/lic/teama/Endowment Plans.html" class="dropdown-item">Endowment Plans
+                        </a>
+                        <a href="/lic/teama/Riders.html" class="dropdown-item">Riders</a>
+                        <a href="/lic/teama/Whole Life Plans.html" class="dropdown-item">Whole Life Plans</a>
+                        <a href="/lic/teama/Money Bank Plans.html" class="dropdown-item">Money Bank Plans</a>
+                        <a href="/lic/teama/Terms Assurance Plans.html" class="dropdown-item">Terms Assurance Plans</a>
+
+                    </div>
+                </div>
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Life Insurance</a>
+                    <div class="dropdown-menu">
+                        <a href="/lic/new/header1cat1.html" class="dropdown-item">Why Life Insurance</a>
+                        <a href="/lic/new/header1cat2.html" class="dropdown-item">Life Insurance Products</a>
+                        <a href="/lic/new/header1cat3.html" class="dropdown-item">Premium Calculator</a>
+                        <a href="lic.html" class="dropdown-item">HLV Calculator</a>
+                    </div>
+                </div>
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Mutual Funds</a>
+                    <div class="dropdown-menu">
+                        <a href="/lic/new/header2cat1.html" class="dropdown-item">Why Mutual Funds</a>
+                        <a href="/lic/new/header2cat2.html" class="dropdown-item">Funds at a Glance</a>
+                        <a href="/lic/new/header2cat3.html" class="dropdown-item">Our Favourite Funds</a>
+                        <a href="/lic/new/header2cat1.html" class="dropdown-item">Top Performers</a>
+                        <a href="/lic/new/header2cat2.html" class="dropdown-item">Dividend Declared</a>
+                        <a href="/lic/new/header2cat3.html" class="dropdown-item">NFOs</a>
+                        <a href="/lic/new/header2cat1.html" class="dropdown-item">Gainers/Losers</a>
+                        <a href="/lic/new/header2cat2.html" class="dropdown-item">Growth Calculator</a>
+                        <a href="/lic/new/header2cat3.html" class="dropdown-item">Risk Profile</a>
+                        <a href="/lic/new/header2cat1.html" class="dropdown-item">Articles</a>
+                    </div>
+                </div>
+
+                <a href="/lic/contact.html" class="nav-item nav-link">Health Insurance</a>
+                <a href="./homeloan.html" class="nav-item nav-link">Home Loan</a>
+                <a href="./deposit.html" class="nav-item nav-link">Deposit</a>
+                <a href="./bond.html" class="nav-item nav-link">Bonds</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Divider between sections -->
+<div class="w-50 my-2 border-top"></div>
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/image1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Secure Your Future with LIC LifePlus</h1>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/image2.webp" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">LifePlus – Your Partner in Financial Growth</h1>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+  
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-flex flex-column">
+                        <img class="img-fluid rounded w-75 align-self-end" src="img/img9.jpg" alt="">
+                        <img class="img-fluid rounded w-50 bg-white pt-3 pe-3" src="img/img7.png" alt="" style="margin-top: -25%;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <p class="d-inline-block border rounded-pill py-1 px-4">About Us</p>
+                    <h1 class="mb-4">Mission and Vision? Customer-Centric Approach!</h1>
+                    <p>The mission statement usually emphasizes LIC's commitment to providing life insurance to all segments of society, ensuring financial security, and offering value-added services.</p>
+                    <p class="mb-4">Commitment to leveraging technology to enhance customer experience and offer convenient online services.</p>
+                    <p><i class="far fa-check-circle text-primary me-3"></i>Insurance Products</p>
+                    <p><i class="far fa-check-circle text-primary me-3"></i>Policyholder Services</p>
+                    <p><i class="far fa-check-circle text-primary me-3"></i>Customer Support</p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="about.html">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+<br>
+<br>
+<br>
+  <!-- Banner Start -->
+  <div class="container-fluid banner mb-5">
+    <div class="container">
+        <div class="row">
+            <!-- Left Box -->
+            <div class="col-lg-6 wow zoomIn" data-wow-delay="0.3s">
+                <div class="bg-dark d-flex flex-column p-5 mb-4" style="height: 300px;">
+                    <h3 class="text-white mb-3">I want to</h3>
+                    <select class="form-select bg-light border-0 mb-3" style="height: 40px;">
+                        <option selected>Select</option>
+                        <option value="1">to become an agent</option>
+                        <option value="2">children's future planning</option>
+                        <option value="3">health care</option>
+                        <option value="3">to insure my life</option>
+                        <option value="3">to protect my life</option>
+                        <option value="3">retirement plan</option>
+                        <option value="4">wealth creation </option>
+                    </select>
+                    <h3 class="text-white mb-3">I am</h3>
+                    <select class="form-select bg-light border-0 mb-3" style="height: 40px;">
+                        <option selected>Select</option>
+                        <option value="1">an employee</option>
+                        <option value="2">an entrepreneur</option>
+                        <option value="3">a professional</option>
+                        <option value="3">a business person</option>
+                        <option value="3">an employer</option>
+                        <option value="3">not working as of now</option>
+                        <option value="3">a student</option>
+                        <option value="3">retired</option>
+                        <option value="3">a house wife</option>
+                    </select>
+                    <a class="btn btn-light" href="newform.html">Submit</a>
+                </div>
+            </div>
+
+            <!-- Right Box -->
+            <div class="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
+                <div class="bg-primary d-flex flex-column p-5 mb-4" style="height: 300px;">
+                    <h3 class="text-white mb-3">Become an Lic agent?</h3>
+                    <div class="d-flex justify-content-between text-white mb-3">
+                        <h6 class="text-white mb-0">Yearning for your efforts to pay off? Become your own boss! Ab Bada Socho!</h6>
+                    </div>
+                    <a class="btn btn-light" href="lic.html">Know More</a>
+                    <br>
+                    <a class="btn btn-light" href="https://futureon.online/">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Banner Start -->
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Services</p>
+                <h1>We Provide services tailored for you</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-heartbeat text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">LIC's new Tech Term</h4>
+                        <p class="mb-4">Choose between Level Sum Assured and Increasing Sum Assured.
+                            Flexible premium options (Single, Regular, Limited), policy term, and the choice to receive benefits in installments.
+                        </p>
+                        <a class="btn" href="2nd.html"><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-x-ray text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">LIC's Cancer Cover</h4>
+                        <p class="mb-4">Cancer Cover is a Regular Premium, Non-linked, Non-participating Health Insurance plan.
+                            It offers financial protection if the life assured is diagnosed with specified early or major stage cancer during the policy term.</p>
+                        <a class="btn" href="2nd.html"><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-brain text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">LIC's
+                            New Children Money Back Plan</h4>
+                        <p class="mb-4">This plan meets the financial needs of growing children at various stages of life.
+                            Risk cover and survival benefits ensure children's needs are met, even in the absence of the parents.</p>
+                        <a class="btn" href="2nd.html"><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-wheelchair text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">LIC's New Jeevan Shanti</h4>
+                        <p class="mb-4">Ensures regular income after retirement with guaranteed annuity rates at the time of purchase.
+                            Offers multiple annuity options to cater to different needs and preferences, providing financial stability</p>
+                        <a class="btn" href="2nd.html"><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-tooth text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">LIC's
+                            Jeevan Utsav</h4>
+                        <p class="mb-4">Guaranteed annual payout of 10% of sum assured starts 3-6 years after premium payment term , ensuring lifelong financial security.
+                            Guaranteed additions during premium payment term, paired with whole life insurance having a limited premium payment term of 5-16 years, provide enduring</p>
+                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-vials text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">LIC's
+                            Dhan Vruddhi</h4>
+                        <p class="mb-4">Limited premium payment ensures that you can enjoy the benefits of the policy without long-term payment commitments.
+                            Enjoy comprehensive protection and attractive guaranteed additions throughout the policy term.</p>
+                        <a class="btn" href="2nd.html"><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+ 
+
+
+ 
+
+
+  <!-- Appointment Start -->
+  <div class="container-fluid bg-primary bg-appointment my-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row gx-5">
+            <div class="col-lg-6 py-5">
+                <div class="py-5">
+                    <h1 class="display-5 text-white mb-4">We Are A Certified and Award Winning LIC Agents You Can Trust</h1>
+                    <p class="text-white mb-0">With years of experience and recognition in the insurance industry, we are proud to be certified LIC agents, committed to delivering top-notch services. Our expertise has earned us multiple awards, reflecting our dedication to providing trustworthy and personalized insurance solutions. Whether you’re planning for the future or securing your family’s financial well-being, we’re here to guide you every step of the way.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
+                    <h1 class="text-white mb-4">Make Appointment</h1>
+                    <form id="appointmentForm">
+                        <div class="row g-3">
+                            <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control bg-light border-0" placeholder="Your Name" id="name" style="height: 55px;" required>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="email" class="form-control bg-light border-0" placeholder="Your Email" id="email" style="height: 55px;" required>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control bg-light border-0" placeholder="Address" id="address" style="height: 55px;" required>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control bg-light border-0" placeholder="Message" id="message" style="height: 55px;" required>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-dark w-100 py-3" type="submit">Make Appointment</button>
+                            </div>
+                        </div>
+                    </form>
+                    
+                    <script>
+                        document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+                            e.preventDefault();
+                    
+                            // Get form values
+                            var name = document.getElementById('name').value;
+                            var email = document.getElementById('email').value;
+                            var address = document.getElementById('address').value;
+                            var message = document.getElementById('message').value;
+                    
+                            // Construct the WhatsApp message
+                            var whatsappMessage = Name: ${name}%0AEmail: ${email}%0AAddress: ${address}%0AMessage: ${message};
+                    
+                            // WhatsApp API URL with your number
+                            var whatsappURL = https://wa.me/918887333777?text=${whatsappMessage};
+                    
+                            // Redirect to WhatsApp
+                            window.open(whatsappURL, '_blank');
+                        });
+                    </script>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Appointment End -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+
+    .pavan-container {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .pavan-input-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .pavan-label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    input {
+        width: 100%;
+        max-width: 150px;
+        padding: 8px;
+        margin: 0 10px;
+    }
+
+    .pavan-separator {
+        margin: 0 10px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .pavan-results-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .pavan-result-box {
+        padding: 20px;
+        border: 1px solid #cce7ff;
+        background-color: #e6f7ff;
+        border-radius: 5px;
+        text-align: center;
+        flex: 1;
+        min-width: 200px;
+        margin: 10px;
+    }
+
+    .pavan-result-box strong {
+        color: red;
+        font-size: 20px;
+    }
+
+    .pavan-chart-container {
+        position: relative;
+        height: 400px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+        .pavan-input-group {
+            flex-direction: column;
+        }
+
+        .pavan-label {
+            margin-bottom: 5px;
+        }
+
+        .pavan-separator {
+            display: none;
+        }
+
+        .pavan-results-container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .pavan-result-box {
+            width: 90%;
+        }
+    }
+
+    @media (min-width: 601px) {
+        .pavan-input-group {
+            flex-direction: row;
+        }
+
+        .pavan-separator {
+            display: inline;
+        }
+    }
+</style>
+</head>
+<body>
+<div class="pavan-container">
+    <h1>S.I.P. Your smart way to create wealth systematically</h1>
+    <div class="pavan-input-group">
+        <label class="pavan-label">Monthly Investment (₹):</label> 
+        <input type="number" id="monthlyInvestment" value="5000" step="100" />
+        <span class="pavan-separator"></span>
+        <label class="pavan-label">Investment Period (Years):</label>
+        <input type="number" id="investmentPeriod" value="35" step="1" />
+        <span class="pavan-separator"></span>
+        <label class="pavan-label">Expected Return (% per annum):</label>
+        <input type="number" id="expectedReturn" value="9.5" step="0.1" />
+    </div>
+
+    <div class="pavan-results-container">
+        <div class="pavan-result-box">
+            <p>Total Investment:</p>
+            <strong>₹<span id="totalInvestment">0</span></strong>
+        </div>
+        <div class="pavan-result-box">
+            <p>Future Value:</p>
+            <strong>₹<span id="futureValue">0</span></strong>
+        </div>
+    </div>
+
+    <div class="pavan-chart-container">
+        <canvas id="sipChart"></canvas>
+    </div>
+</div>
+
+<script>
+    function formatToLac(amount) {
+        return amount.toLocaleString('en-IN');
+    }
+
+    function calculateSIP(monthlyInvestment, investmentPeriod, expectedReturn) {
+        const months = investmentPeriod * 12;
+        const monthlyRate = (1 + expectedReturn / 100) ** (1 / 12) - 1;
+        let futureValue = 0;
+        let investedAmount = 0;
+        const futureValues = [];
+        const investedAmounts = [];
+
+        for (let i = 1; i <= months; i++) {
+            investedAmount += monthlyInvestment;
+            futureValue = futureValue * (1 + monthlyRate) + monthlyInvestment;
+            futureValues.push(futureValue);
+            investedAmounts.push(investedAmount);
+        }
+
+        return { futureValues, investedAmounts, investedAmount, futureValue };
+    }
+
+    function updateChart(chart, futureValues, investedAmounts, investmentPeriod) {
+        chart.data.labels = Array.from({ length: investmentPeriod * 12 + 1 }, (_, i) => Math.floor(i / 12));
+        chart.data.datasets[0].data = futureValues;
+        chart.data.datasets[1].data = investedAmounts;
+        chart.update();
+    }
+
+    function updateResults(investedAmount, futureValue) {
+        document.getElementById('totalInvestment').textContent = formatToLac(investedAmount);
+        document.getElementById('futureValue').textContent = formatToLac(futureValue);
+    }
+
+    const ctx = document.getElementById('sipChart').getContext('2d');
+    const sipChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: [],
+            datasets: [
+                {
+                    label: 'Future Value',
+                    data: [],
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    fill: true,
+                    tension: 0.1
+                },
+                {
+                    label: 'Total Invested',
+                    data: [],
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    fill: true,
+                    tension: 0.1
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                x: {
+                    title: { display: true, text: 'Years' },
+                    ticks: { stepSize: 1 }
+                },
+                y: {
+                    title: { display: true, text: 'Amount (₹)' },
+                    ticks: { callback: value => formatToLac(value) }
+                }
+            }
+        }
+    });
+
+    document.getElementById('monthlyInvestment').addEventListener('input', updateSIPChart);
+    document.getElementById('investmentPeriod').addEventListener('input', updateSIPChart);
+    document.getElementById('expectedReturn').addEventListener('input', updateSIPChart);
+
+    function updateSIPChart() {
+        const monthlyInvestment = parseFloat(document.getElementById('monthlyInvestment').value);
+        const investmentPeriod = parseInt(document.getElementById('investmentPeriod').value);
+        const expectedReturn = parseFloat(document.getElementById('expectedReturn').value);
+
+        const { futureValues, investedAmounts, investedAmount, futureValue } = calculateSIP(monthlyInvestment, investmentPeriod, expectedReturn);
+
+        updateChart(sipChart, futureValues, investedAmounts, investmentPeriod);
+        updateResults(investedAmount, futureValue);
+    }
+
+    updateSIPChart();
+</script>
+ 
+
+<!-- Testimonial Start -->
+    <div class="container-fluid bg-primary bg-testimonial py-5 my-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="owl-carousel testimonial-carousel rounded p-5 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded mb-4" src="img/testimonial-1.jpg" alt="">
+                            <p class="fs-5">Choosing an LIC policy felt overwhelming, but with the help of my LicLifeplus, the process was smooth and stress-free. They were patient, explained every detail clearly, and helped me find the right policy for my family's needs. I now feel secure knowing my future is in good hands.</p>
+                            <hr class="mx-auto w-25">
+                            <h4 class="text-white mb-0">Kayali</h4>
+                        </div>
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded mb-4" src="img/testimonial-2.jpg" alt="">
+                            <p class="fs-5">I am extremely satisfied with the service provided by my LICLIFEPLUS. Their expertise and personalized approach made all the difference. They were always available to answer my questions and guide me through every step. I feel confident and well-protected with the policy I selected</p>
+                            <hr class="mx-auto w-25">
+                            <h4 class="text-white mb-0">Sarah</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Testimonial End -->
+
+
+   
+    
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light py-5 wow fadeInUp" data-wow-delay="0.3s" style="margin-top: -75px;">
+        <div class="container pt-5">
+            <div class="row g-5 pt-4">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Quick Links</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-light mb-2" href="/lic/teama/about.html"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                        <a class="text-light mb-2" href="/lic/teama/gropschema.html"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                        <!-- <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a> -->
+                        <a class="text-light" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                    </div>
+                </div>
+              
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Get In Touch</h3>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Hare krishna vizag, Andhra Pradesh -530001 Visakhapatnam</p>
+                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>vamsi999@gmail.com
+
+                    </p>
+                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 8887333777</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Follow Us</h3>
+                    <div class="d-flex">
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-light py-4" style="background: #051225;">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; <a class="text-white border-bottom" href="index.html">LicLifeplus</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Designed by <a class="text-white border-bottom" href="https://deltateam.in">deltateam.in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="lib/twentytwenty/jquery.event.move.js"></script>
+    <script src="lib/twentytwenty/jquery.twentytwenty.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body> 
+
+</html>
